@@ -9,11 +9,10 @@
     "platzi"
   ],
   "scripts": {
-    "start": "live-server",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "start": "live-server"
   },
   "devDependencies": {
+    "gh-pages": "^4.0.0",
     "live-server": "^1.2.1"
   }
 }
