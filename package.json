@@ -1,0 +1,19 @@
+{
+  "name": "media-player",
+  "version": "1.0.0",
+  "description": "MediaPlayer with JavaScript",
+  "license": "MIT",
+  "author": "Santiago Salas <a.santiago.salas.b@gmail.com>",
+  "homepage": "https://SantiSB.github.io/MediaPlayer",
+  "keywords": [
+    "platzi"
+  ],
+  "scripts": {
+    "start": "live-server",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
+  },
+  "devDependencies": {
+    "live-server": "^1.2.1"
+  }
+}
